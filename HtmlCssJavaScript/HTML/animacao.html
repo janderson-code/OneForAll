@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Animação</title>
+    <style type="text/css">
+      div{
+        width:100px;
+        height:100px;
+        background-color:red;
+        position:relative;
+        
+        animation:banner;
+        animation-duration:5s;
+        animation-timing-function:ease-in-out;
+        animation-iteration-count:5;
+        animation-direction:alternate;
+        animation-delay:0.5s;
+        
+        -moz-animation:banner;
+        -moz-animation-duration:5s;
+        -moz-animation-timing-function:ease-in-out;
+        -moz-animation-iteration-count:5;
+        -moz-animation-direction:alternate;
+        -moz-animation-delay:0.5s;
+       
+        -o-animation:banner;
+        -o-animation-duration:5s;
+        -o-animation-timing-function:ease-in-out;
+        -o-animation-iteration-count:5;
+        -o-animation-direction:alternate;
+        -o-animation-delay:0.5s;
+        
+        -webkit-animation:banner;
+        -webkit-animation-duration:5s;
+        -webkit-animation-timing-function:ease-in-out;
+        -webkit-animation-iteration-count:5;
+        -webkit-animation-direction:alternate;
+        -webkit-animation-delay:0.5s;
+      }
+      
+      @-moz-keyframes banner{
+      0%    {background-color:red; left:0px; top:0px;}
+      25%   {background-color:yellow; left:350px; top:0px;}
+      50%   {background-color:blue; left:350px; top:400px;}
+      75%   {background-color:magenta; left:0px; top:400px;}
+      100%  {background-color:purple; left:0px; top:0px;}
+      }
+      
+      @-o-keyframes banner{
+      0%    {background-color:red; left:0px; top:0px;}
+      25%   {background-color:yellow; left:350px; top:0px;}
+      50%   {background-color:blue; left:350px; top:400px;}
+      75%   {background-color:magenta; left:0px; top:400px;}
+      100%  {background-color:purple; left:0px; top:0px;}
+      }
+      
+      @-webkit-keyframes banner{
+      0%    {background-color:red; left:0px; top:0px;}
+      25%   {background-color:yellow; left:350px; top:0px;}
+      50%   {background-color:blue; left:350px; top:400px;}
+      75%   {background-color:magenta; left:0px; top:400px;}
+      100%  {background-color:purple; left:0px; top:0px;}
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div> &nbsp; </div>
+  </body>
+  
+</html>

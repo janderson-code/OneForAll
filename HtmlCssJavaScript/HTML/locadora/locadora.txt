@@ -1,0 +1,11 @@
+locadora muito legal
+
+cliente
+
+devolução de filmes
+
+título	lançamento	devolução (data)	devolução (dia)
+Avatar	sim	14/mar	quinta
+Bastardos inglórios	não	17/mar	domingo
+Distrito 9	não	17/mar	domingo
+Up - altas aventuras	não	17/mar	domingo

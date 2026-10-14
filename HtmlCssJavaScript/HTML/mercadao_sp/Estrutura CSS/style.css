@@ -1,0 +1,142 @@
+/* RESET DA PÁGINA */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+body{
+	background-color: #DCDCDC;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+
+}
+
+/* INÍCIO DO CORPO DA PÁGINA */ 
+
+#container{
+	width: 1000px; /*WIDTH=LARGURA*/
+	margin: auto; /*O VALOR AUTO É UTILIZADO PARA CENTRALIZAR O CONTAINER NO MEIO DA PÁGINA*/
+	padding: 10px 0;
+}
+/*CONFIGURAÇÕES DO TOPO*/
+#topo{
+	background-color: #696969; /*SISTEMA DE CORES NO CSS: NOME DA COR (RED, GREE, BLUE, ETC) / HEXADECIMAL (#000000) / RGB - rgb(100,149,237)*/
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	font-family: Impact, sans-serif;
+	font-size: 32px;
+	color: #800000;
+	background-color: #000000;
+	width: 300px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#topo nav{
+	background-color: #a9a9a9;
+}
+#topo nav ul{
+	list-style: none;
+	padding: 20px;
+}
+#topo nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+#topo nav ul li a{
+	font-size: 18px;
+	color: #000000;
+}
+#topo nav ul li a:hover{
+	color: white;
+	border-bottom-style: solid;
+}
+#posts{
+	float: left;
+	width: 650px;
+	margin-bottom: 10px;
+}
+.arthome{
+	background-color: #FAF0E6;
+	padding: 10px;
+}
+
+.arthome header{
+	font-size: 22px;
+	font-weight: bold;
+	color: #696969;
+	margin-bottom: 15px;
+}
+
+.arthome footer{
+	margin-top: 10px;
+	border-top: 0.5px solid #C0C0C0;
+	text-align: right;
+}
+
+.arthome footer a{
+	font-weight: bold;
+	color: #000000;
+}
+
+.arthome footer a:hover{
+	color: #800000;
+	border-bottom: dotted;
+}
+
+#sidebar{
+	float: right;
+	background-color: #E8B4A3;
+	width: 300px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#sidebar header{
+	font-family: Impact, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#sidebar p{
+	font-size: 14px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#sidebar footer{
+	font-weight: bold;
+	text-align: right;
+}
+
+#sidebar footer a{
+	color: #800000;
+}
+
+#sidebar footer a:hover{
+	color: black;
+}
+
+#container>footer{
+	height: 80px;
+	background-color: #a9a9a9;
+	clear: both;
+	line-height: 80px;
+}
+#container>footer p{
+	font-family: courier, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+

@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>FutureWeb - Desenvolvimento Web</title>
+      <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    
+     <body>
+     
+      <div id="container">
+      
+        <header id="main">
+          <hgroup>
+            <h1 class="headings">FUTUREWEB</h1>
+            <h2 class="headings"><em>desenvolvimento web - novas tecnologias</em></h2>
+          </hgroup>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">home page</a></li>
+            <li><a href="sobre-nos.html">sobre nós</a></li>
+            <li><a href="servicos.html">serviços</a></li>
+            <li><a href="contato.html">contato</a></li>
+          </ul>
+        </nav>
+        
+        </header>
+        
+        <div>
+          <img src="images\designer-grafico.jpg" alt="Desenvolvimento Gráfico" width="320px" height="290px" />
+          <img src="images\projetos.jpg" alt="Gerenciamento de Projetos" width="320px" height="290px" />
+          <img src="images\gerenciamento.jpg" alt="Gerenciamento de Inovação" width="320px" height="290px" />
+        </div>
+        
+        <section>
+          <header>
+            <h1>Fale Conosco</h1>
+          </header>
+          
+          <form id="orcamento" name="orcamento" method="post" action="#">
+            <span class="data">
+            <label for="txt_nome">Nome:</label>
+            <input type="text" name="txt_nome" id="txt_nome" size="50" maxlength="155" alt="Digite seu nome" title="Nome" tabindex="1" accesskey="n" placeholder="Digite seu nome cabeção e completo" autofocus autocomplete="off"/>
+            </span>
+            
+            <span class="data">
+            <label for="txt_email">E-mail:</label>
+            <input type="email" name="txt_email" id="txt_email" size="50" maxlength="255" alt="Digite seu e-mail" title="E-mail" tabindex="2" accesskey="e" Placeholder="Digite seu e-mail" required />
+            </span>
+            
+            <span class="data">
+            <label for="txt_url">URL:</label>
+            <input type="url" name="txt_url" id="txt_url" size="50" maxlength="255" alt="Digite o site" title="Endereço do site" tabindex="3" accesskey="s" Placeholder="Digite o site"/>
+            </span>
+            
+            <span class="data">
+            <label for="txt_number">Quantidade de Páginas:</label>
+            <input type="number" name="txt_number" id="txt_number" size="10" min="5" max="30" value="5" alt="Qtde de pág." title="Quantidade de Páginas" tabindex="4" accesskey="q" />
+            </span>
+            
+            <span class="data">
+            <label for="txt_meses">Prazo de entrega em meses:</label>
+            <input type="number" name="txt_meses" id="txt_meses" size="10" min="2" max="30" step="2" value="2" alt="Prazo de entrega" title="Prazo de entrega" tabindex="5" accesskey="p" />
+            </span>
+            
+            <span class="data">
+            <label for="investimento">Investimento:</label>
+            <input type="text" name="txt_vlr" id="txt_vlr" size="20" value="2" />
+            <input type="range" name="invetimento" id="investimento" size="10" min="2" max="30" value="2" alt="Investimento" onchange="txt_vlr.value = this.value" />
+            </span>
+            
+            <span class="data">
+            <label for="dt_inicio">Data Início</label>
+            <input type="date" name="dt_inicio" id="dt_inicio" />
+            </span>
+            
+            <span class="data">
+            <label for="dt_termino">Data Termino</label>
+            <input type="datetime-local" name="dt_termino" id="dt_termino" />
+            </span>
+            
+            <span class="data">
+            <label for="dt_nascimento">Aniversário</label>
+            <input type="month" name="dt_nascimento" id="dt_nascimento" />
+            </span>
+            
+            <span class="data">
+            <label for="hr_contato">Hora para contato</label>
+            <input type="time" name="hr_contato" id="hr_contato" />
+            </span>
+            
+            <span class="data">
+            <label for="cor">Informe a cor desejada para o site</label>
+            <input type="color" name="cor" id="cor" />
+            </span>
+            
+            <span class="data">
+            <label for="lista">Lista de Serviços</label>
+            <input type="text" name="lista" id="lista" list="services" />
+              <datalist id="services">
+                <option value="Web Design">
+                <option value="HTML 5 Website">
+                <option value="Ecommerce">
+                <option value="SEO & Emarketing">
+                <option value="Corporate Identity">
+                <option value="Web Hosting">
+              </datalist>
+            </span>
+            
+            <span class="data">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep" pattern="[\d]{5}(-[\d]{3})" placeholder="Formato 00000-000"/>
+            </span>
+            
+            <span class="data">
+            <label for="seguranca">Segurança da Mensagem: <label>
+            <keygen name="seguranca" id="seguranca">
+            
+            
+            </span>
+            
+            <span class="data">
+            <label for="numba">Insira o 1º valor: </label>
+            <input type="number" id="numba" name="numba" size="10" />+
+            <label for="numbb">Insira o 2º valor: </label>
+            <input type="number" id="numbb" name="numbb" size="10" />=
+            <output name="resultado" onforminput="value=numba.valueAsNumber + numbb.valueAsNumber"></output>
+            </span>
+            
+            <input type="submit" value="enviar" id="bt_enviar" name="bt_enviar" />
+            
+            <input type="submit" value="Duvidas?" id="bt_duvidas" name="bt_duvidas" formmethod="get" formtarget="_blank" formaction="http://www.uol.com.br" />
+            
+          </form>
+        
+        </section>
+        
+        <footer id="end_page">
+          <nav>
+            <ul>
+              <li><a href="index.html">home page</a></li>
+              <li><a href="sobre-nos.html">sobre nós</a></li>
+              <li><a href="servicos.html">serviços</a></li>
+              <li><a href="contato.html">contato</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+      
+      <div id="redes_sociais">
+        <img src="images/twitter.png" alt="Twitter" title="Go Twitter" />
+        <img src="images/facebook.png" alt="Facebook" title="Go Facebook" />
+        <img src="images/blogger.png" alt="Blogger" title="Go Blogger" />
+      </div>
+      </div>
+
+     </body>
+
+  </html>

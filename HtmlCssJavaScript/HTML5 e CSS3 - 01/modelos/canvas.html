@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>HTML5</title>
+		<script>
+			function desenhar(){
+				var desenho = document.getElementById('figura');
+				var context = desenho.getContext('2d');
+			context.fillStyle = '#00FFFF'
+			context.fillRect(50,50,200, 200);
+			}
+		</script>
+
+	</head>
+	<body>
+
+		<p><canvas id="figura" width="300" height="300"></canvas></p>
+		<p><button onClick="desenhar()">Desenhar</button></p>
+
+		</body>
+</html>

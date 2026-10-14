@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>HTML5</title>
+	</head>
+	<body>
+
+		<video height="272" width="360" controls preload poster="videos/poster_video.jpg">
+		<source src="videos/video.m4v"/>
+		<source src="videos/video.ogv" />
+		<source src="videos/video.webm"/>
+		<object height="272" width="360" type="application/x-shockwave-flash" data="videos/player_flash.swf">
+		<!--player_flash.swf é o arquivo do player em Flash-->
+		<!--O atributo data é para o Firefox. O IE ,Safari e outros precisam do elemento param -->
+		<param name="movie" value="videos/player_flash.swf"/>
+		<param name="flashvars" value="autostart=false&controlbar=over&file=videos/video.flv"/>
+		</object>
+		<p><a href="videos/video.m4v">Baixe o vídeo</a></p>
+		</video>
+
+		</body>
+</html>
